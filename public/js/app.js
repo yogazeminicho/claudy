@@ -2,11 +2,30 @@ import { MODULES, ALL_LESSONS, BADGES, XP, XP_PER_LEVEL, MAX_LEVEL, FREE_COUNT, 
 import { voucherProblem, finalPrice, rupiah } from "./pricing.js";
 import { t, tr, getLang, setLang } from "./i18n.js";
 import { firebaseConfig } from "./config.js";
+import { tantanganHariIni } from "./tantangan.js";
 
 const B = firebaseConfig ? await import("./backend-firebase.js") : await import("./backend-local.js");
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const view = $("#view");
+
+// Salin teks prompt (tantangan harian dan tombol di Resep Prompt).
+view.addEventListener("click", async e => {
+  const b = e.target.closest("#ch-done, #ch-copy, .copy-btn");
+  if (!b) return;
+  const en = getLang() === "en";
+  if (b.id === "ch-done") { await award({ ["tantangan-" + todayStr()]: { at: Date.now() } }, 5); dashboard(); return; }
+  const text = b.id === "ch-copy" ? tantanganHariIni().prompt : b.dataset.copy;
+  const label = b.textContent;
+  try {
+    await navigator.clipboard.writeText(text);
+    b.textContent = en ? "✅ Copied" : "✅ Tersalin";
+  } catch {
+    toast(en ? "Copy failed. Select the text and copy it manually." : "Gagal menyalin. Blok teksnya lalu salin manual.");
+    return;
+  }
+  setTimeout(() => { b.textContent = label; }, 1500);
+});
 
 const state = { user: null, profile: null, admin: false, pricing: null, content: null, ready: false };
 const isPremium = p => !!p && (p.plan === "lifetime" || (p.premiumUntil && p.premiumUntil > Date.now()));
@@ -54,7 +73,7 @@ function renderNav() {
   $("#nav").innerHTML = `
     <a href="#/" class="brand">${kodi("kodi-sm")}<span>Claudy</span></a>
     <nav>
-      ${u ? `<a href="#/belajar">${t("learn")}</a><a href="#/lencana">${t("badges")}</a>` : ""}
+      ${u ? `<a href="#/belajar">${t("learn")}</a><a href="#/karyaku">${getLang() === "en" ? "My Creations" : "Karyaku"}</a><a href="#/lencana">${t("badges")}</a>` : ""}
       <a href="#/langganan">${t("plans")}</a>
       ${state.admin ? `<a href="#/admin">${t("admin")}</a>` : ""}
     </nav>
@@ -129,6 +148,7 @@ function dashboard() {
   const p = state.profile, lv = levelOf(p.xp), prem = isPremium(p);
   const inLevel = lv >= MAX_LEVEL ? XP_PER_LEVEL : p.xp % XP_PER_LEVEL;
   view.innerHTML = `
+  ${challengeCard()}
   <section class="card stats">
     ${kodi("kodi-md")}
     <div class="grow">
@@ -157,6 +177,52 @@ function badgesView() {
   view.innerHTML = `<h2>${t("badges")}</h2><div class="grid">${BADGES.map(b => `
     <div class="card badge ${have.includes(b.id) ? "" : "off"}"><div class="b-ic">${b.icon}</div>
     <b>${esc(tr(b.name))}</b><small>${esc(tr(b.how))}</small></div>`).join("")}</div>`;
+}
+
+// ---------- tantangan harian & karyaku ----------
+function challengeCard() {
+  const en = getLang() === "en", c = tantanganHariIni(), key = "tantangan-" + todayStr();
+  const done = !!(state.user && state.profile?.done?.[key]);
+  return `<section class="card challenge">
+    <small class="muted">${en ? "Today's 2-minute challenge" : "Tantangan 2 menit hari ini"} · ${esc(c.title)}</small>
+    <pre class="prompt-box">${esc(c.prompt)}</pre>
+    <div class="tools">
+      <button class="ghost small" id="ch-copy">📋 ${en ? "Copy prompt" : "Salin prompt"}</button>
+      <a class="btn small" href="https://claude.ai/new" target="_blank" rel="noopener">${en ? "Open Claude" : "Buka di Claude"} →</a>
+      ${state.user ? (done ? `<b class="ok">✅ ${en ? "Done today" : "Sudah hari ini"}</b>` : `<button class="btn small" id="ch-done">${en ? "I tried it! +5 XP" : "Sudah saya coba! +5 XP"}</button>`) : ""}
+    </div></section>`;
+}
+
+function karyaView() {
+  if (!state.user) return needLogin();
+  const en = getLang() === "en", list = state.profile.karya || [];
+  view.innerHTML = `<h2>${en ? "My Creations" : "Karyaku"}</h2>
+  <p class="muted">${en ? "Paste the link of something you built with Claude, and it shows up here." : "Tempel link karya yang kamu buat bersama Claude. Karya kamu tampil di sini."}</p>
+  <form id="kf" class="card stack">
+    <label>${en ? "Name" : "Nama karya"}<input name="title" maxlength="60" required></label>
+    <label>Link<input name="link" type="url" placeholder="https://..." required></label>
+    <button class="btn">${en ? "Add" : "Tambahkan"}</button>
+  </form>
+  <div class="grid">${list.length ? list.map((k, i) => `<div class="card stack">
+      <b>${esc(k.title)}</b>
+      <a href="${esc(k.link)}" target="_blank" rel="noopener">${en ? "Open" : "Buka"} →</a>
+      <button class="ghost small" data-del="${i}">🗑️ ${en ? "Remove" : "Hapus"}</button></div>`).join("")
+    : `<p class="muted">${en ? "No creations yet. Start with lesson 2.3!" : "Belum ada karya. Mulai dari pelajaran 2.3!"}</p>`}</div>`;
+  $("#kf").onsubmit = async e => {
+    e.preventDefault();
+    const d = new FormData(e.target), link = String(d.get("link") || "");
+    if (!/^https:\/\//.test(link)) { toast(en ? "The link must start with https://" : "Link harus diawali https://"); return; }
+    const karya = [...list, { title: String(d.get("title") || "").slice(0, 60), link, at: Date.now() }];
+    state.profile.karya = karya;
+    await B.saveProfile(state.user.uid, { karya });
+    karyaView();
+  };
+  view.querySelectorAll("[data-del]").forEach(b => b.onclick = async () => {
+    const karya = list.filter((_, i) => i !== +b.dataset.del);
+    state.profile.karya = karya;
+    await B.saveProfile(state.user.uid, { karya });
+    karyaView();
+  });
 }
 
 // ---------- pelajaran ----------
@@ -228,6 +294,14 @@ async function lessonView(id) {
   </article>`;
   $("#tts").onclick = e => speak($("#md").innerText, e.target);
   $("#big").onchange = e => { document.body.classList.toggle("big", e.target.checked); try { localStorage.setItem("claudy-big", e.target.checked ? "1" : ""); } catch {} };
+  // Tombol "Salin prompt" dan "Buka di Claude" di setiap blok prompt (Resep Prompt).
+  view.querySelectorAll("#md pre").forEach(pre => {
+    const en = getLang() === "en", row = document.createElement("div");
+    row.className = "tools copy-row";
+    row.innerHTML = `<button class="ghost small copy-btn" data-copy="${esc(pre.innerText)}">📋 ${en ? "Copy prompt" : "Salin prompt"}</button>
+      <a class="btn small" href="https://claude.ai/new" target="_blank" rel="noopener">${en ? "Open in Claude" : "Buka di Claude"} →</a>`;
+    pre.after(row);
+  });
   if (done) return;
   let perfect = false;
   $("#chk") && ($("#chk").onclick = () => {
@@ -405,6 +479,7 @@ async function route() {
       case "masuk": loginView(); break;
       case "belajar": dashboard(); break;
       case "lencana": badgesView(); break;
+      case "karyaku": karyaView(); break;
       case "pelajaran": await lessonView(parts[1]); break;
       case "langganan": await plansView(params); break;
       case "admin": await adminView(params); break;

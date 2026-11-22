@@ -7,7 +7,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent.parent
 SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else HERE.parent / "Konten"
 OUT = HERE / "public" / "content"
-FREE = {"1.1","1.2","1.3","1.4","1.5","1.6","1.7","1.8","2.1","2.2"}  # sama dengan FREE_COUNT di curriculum.js
+FREE = {"1.1","1.2","1.3","1.4","2.1","2.2","2.3","2.4","2.5","2.6"}  # sama dengan FREE_COUNT di curriculum.js (10)
 IMG_EXT = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 MAX_W = 1280  # gambar diperkecil supaya cepat dibuka di HP
 
