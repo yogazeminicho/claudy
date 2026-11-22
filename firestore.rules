@@ -1,0 +1,35 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{db}/documents {
+    function signedIn() { return request.auth != null; }
+    function isAdmin() { return signedIn() && exists(/databases/$(db)/documents/admins/$(request.auth.uid)); }
+    function premium() {
+      let u = get(/databases/$(db)/documents/users/$(request.auth.uid)).data;
+      return u.get('plan', null) == 'lifetime' || u.get('premiumUntil', 0) > request.time.toMillis();
+    }
+
+    // Admin ditentukan manual lewat Firebase Console: buat dokumen admins/{UID kamu}.
+    match /admins/{uid} { allow read: if signedIn() && request.auth.uid == uid; allow write: if false; }
+
+    // Profil & progres. User tidak boleh mengubah paket/masa aktifnya sendiri.
+    match /users/{uid} {
+      allow read: if (signedIn() && request.auth.uid == uid) || isAdmin();
+      allow create: if signedIn() && request.auth.uid == uid
+        && !request.resource.data.keys().hasAny(['plan', 'premiumUntil']);
+      allow update: if (signedIn() && request.auth.uid == uid
+        && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['plan', 'premiumUntil']))
+        || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    match /settings/{id} { allow read: if true; allow write: if isAdmin(); }
+
+    // Voucher: siapa pun yang login boleh cek 1 kode (get), tapi tidak bisa melihat daftar semua kode.
+    match /vouchers/{code} { allow get: if signedIn(); allow list, write: if isAdmin(); }
+
+    match /orders/{id} { allow read: if isAdmin() || (signedIn() && resource.data.uid == request.auth.uid); allow write: if false; }
+
+    // Materi pelajaran berbayar hanya bisa dibaca anggota Premium.
+    match /paidLessons/{id} { allow read: if isAdmin() || (signedIn() && premium()); allow write: if isAdmin(); }
+  }
+}

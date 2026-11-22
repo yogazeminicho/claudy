@@ -1,0 +1,773 @@
+{
+ "1.1": {
+  "id": {
+   "title": "Kenalan, daftar, langsung ngobrol",
+   "body": "**Durasi:** sekitar 10 menit · **Hadiah:** +20 XP selesai, +10 XP kuis sempurna, +30 XP misi, 🏅 badge **Halo Claude!**\n**Tujuan:** user paham apa itu Claude, punya akun, dan sudah mengirim pesan pertama lalu mendapat balasan.\n\n> Catatan produksi: tampilan halaman daftar bisa berubah. Rekam layar terbaru sebelum membuat video.\n\n---\n\n## Adegan 1: Cerita Kodi (1 menit)\n\n*(Kodi muncul, ekspresi senang, melambai)*\n\n**KODI:** Haloo! Aku Kodi, robot kucing. Hari ini kita kenalan dengan **Claude**, teman pintar yang bisa diajak ngobrol lewat HP.\n\n**KODI:** Kamu pernah punya teman yang pintar banget? Ditanya resep, tahu. Ditanya cara nulis surat, tahu. Ditanya PR anak, juga tahu?\n\n*(ekspresi ups)*\n\n**KODI:** Eh, tapi Claude itu bukan orang dan bukan Google. Tenang, kita cari tahu bersama!\n\n## Adegan 2: Claude itu apa, dan bedanya dengan Google (2 menit)\n\nClaude adalah **asisten AI**. AI artinya \"otak komputer\". Kamu cukup **mengetik pesan**, seperti chat WhatsApp, lalu Claude membalas.\n\n| Google | Claude |\n|---|---|\n| Memberi daftar link, kamu baca sendiri | Langsung menjawab, seperti ngobrol |\n| Tidak bisa disuruh menulis | Bisa menulis surat, caption, pantun |\n| Satu kali cari | Bisa ditanya lanjut: \"lebih pendek dong\" |\n\n**KODI:** Claude dibuat oleh perusahaan bernama **Anthropic**. Ada versi **gratis**, dan semua latihan di Claudy bisa dikerjakan dengan versi gratis.\n\n## Adegan 3: Daftar akun dalam 3 menit (3 menit)\n\n**KODI:** Untuk masuk ke rumah Claude, kita butuh **kunci**. Kuncinya namanya **akun**. Sekali dibuat, bisa dipakai terus.\n\nSiapkan **HP atau laptop**, dan **akun Gmail** (atau email lain).\n\n**Cara A: lewat HP (paling gampang)**\n1. Buka **Play Store** (Android) atau **App Store** (iPhone).\n2. Ketik **Claude** di kolom cari. Pilih aplikasi **Claude** buatan **Anthropic**.\n3. Tekan **Instal**, lalu **Buka**.\n4. Pilih **Lanjutkan dengan Google**, lalu pilih akun Gmail kamu.\n5. Selesai! Kamu akan melihat kotak untuk mengetik pesan.\n\n**Cara B: lewat laptop**\n1. Buka browser (Chrome), ketik **claude.ai**, tekan Enter.\n2. Klik **Lanjutkan dengan Google** (atau masukkan email, lalu buka kode yang dikirim ke email).\n\n**KODI:** *(berpikir)* Pastikan aplikasinya buatan **Anthropic**. Jangan unduh aplikasi tiruan yang meminta bayar di awal.\n\n## Adegan 4: Ngobrol pertama kali (3 menit)\n\n**KODI:** Akun sudah jadi! Sekarang kita kenalan, seperti kenalan dengan tetangga baru.\n\n**Langkah:**\n1. Ketuk **kotak pesan** di bagian bawah layar.\n2. Ketik: `Halo Claude! Perkenalkan dirimu dalam bentuk pantun yang lucu tentang [topik kesukaanmu, misalnya kucing].`\n3. Tekan tombol **kirim** (gambar panah). Tunggu sebentar.\n\nContoh balasan Claude (bisa beda-beda setiap kali):\n> *Jalan-jalan ke Kota Bandung,*\n> *Jangan lupa membeli kue.*\n> *Aku Claude siap membantu,*\n> *Tanya apa saja, ayo ke sini dong!*\n\n**KODI:** Hebatnya, kita bisa **minta lanjutan** tanpa mengulang dari awal:\n- `Lebih lucu dong!`\n- `Sekarang dalam bahasa Jawa.`\n\n**KODI:** *(ups)* Tadi aku ngetik \"HALOOOO!!!\" pakai huruf besar semua. Ternyata tidak perlu teriak, hehe. Ketik biasa saja, Claude tetap dengar.\n\n## Adegan 5: Misi praktik (1 menit)\n\n**KODI:** Misimu: minta Claude **memperkenalkan diri dengan pantun**, lalu minta **satu lanjutan** (lebih lucu, atau tentang topik kesukaanmu). Screenshot hasilnya untuk +30 XP dan badge **Halo Claude!**\n\n**Resep Prompt (salin):**\n```\nHalo Claude! Perkenalkan dirimu dalam bentuk pantun yang lucu tentang [topik kesukaanmu, misalnya kucing].\n```\n\n**KODI:** *(senang)* Kamu sudah bisa ngobrol dengan Claude! Pelajaran berikutnya, kita pakai rumus biar jawabannya makin pas.",
+   "quiz": [
+    {
+     "q": "Claude itu apa?",
+     "options": [
+      "Teman manusia di internet",
+      "Asisten AI yang bisa diajak ngobrol lewat pesan",
+      "Mesin pencari seperti Google"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Benar atau salah: \"Claude hanya memberi daftar link, lalu kita baca sendiri.\"",
+     "options": [
+      "Benar",
+      "Salah"
+     ],
+     "answer": 1,
+     "note": "Claude langsung menjawab seperti ngobrol"
+    },
+    {
+     "q": "Di mana kita mengetik pesan untuk Claude?",
+     "options": [
+      "Di kolom pencarian Google",
+      "Di kotak pesan bagian bawah layar",
+      "Di SMS"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "Meet Claude, sign up, and start chatting",
+   "body": "**Duration:** about 10 minutes · **Reward:** +20 XP for finishing, +10 XP for a perfect quiz, +30 XP for the mission, 🏅 badge **Hello Claude!**\n**Goal:** the learner knows what Claude is, has an account, and has sent a first message and got a reply.\n\n---\n\n## Scene 1: Kodi's story (1 minute)\n\n*(Kodi appears, happy, waving)*\n\n**KODI:** Hello! I'm Kodi, a cat robot. Today we meet **Claude**, a smart friend you can chat with on your phone.\n\n**KODI:** Have you ever had a friend who knows everything? Recipes, letters, kids' homework? Claude is like that friend.\n\n*(surprised face)*\n\n**KODI:** But Claude is not a person, and it is not Google. Let's find out together!\n\n## Scene 2: What Claude is, and how it differs from Google (2 minutes)\n\nClaude is an **AI assistant**. You **type a message**, like a WhatsApp chat, and Claude replies.\n\n| Google | Claude |\n|---|---|\n| Gives a list of links, you read them yourself | Answers directly, like a conversation |\n| Cannot write for you | Can write letters, captions, rhymes |\n| One search at a time | You can follow up: \"make it shorter\" |\n\n**KODI:** Claude was made by a company called **Anthropic**. There is a **free** version, and every practice in Claudy can be done with the free version.\n\n## Scene 3: Sign up in 3 minutes (3 minutes)\n\n**KODI:** To enter Claude's house, we need a **key**. The key is called an **account**. Once made, you can use it again and again.\n\nPrepare a **phone or laptop**, and a **Gmail account** (or another email).\n\n**Option A: on a phone (easiest)**\n1. Open **Play Store** (Android) or **App Store** (iPhone).\n2. Type **Claude** in the search box. Pick the **Claude** app made by **Anthropic**.\n3. Tap **Install**, then **Open**.\n4. Choose **Continue with Google**, then pick your Gmail account.\n5. Done! You will see a box for typing messages.\n\n**Option B: on a laptop**\n1. Open your browser (Chrome) and type **claude.ai**, then press Enter.\n2. Click **Continue with Google** (or type your email, then open the code sent to your inbox).\n\n**KODI:** *(thinking)* Make sure the app is made by **Anthropic**. Do not download copies that ask for payment at the start.\n\n## Scene 4: Your first chat (3 minutes)\n\n**KODI:** The account is ready! Now let's say hello, like meeting a new neighbor.\n\n**Steps:**\n1. Tap the **message box** at the bottom of the screen.\n2. Type: `Hello Claude! Introduce yourself as a funny rhyme about [your favorite topic, for example cats].`\n3. Tap the **send** button (the arrow icon). Wait a moment.\n\nExample reply (it will be different each time):\n> *Walking through the city of Bandung,*\n> *Don't forget to buy some cake.*\n> *I am Claude, ready to help you,*\n> *Ask me anything, come on over!*\n\n**KODI:** You can ask for more without starting over:\n- `Make it funnier!`\n- `Now write it in Javanese.`\n\n**KODI:** *(oops)* I once typed \"HELLOOOO!!!\" in all capitals. No need to shout, hehe. Normal typing is fine, Claude hears you.\n\n## Scene 5: Practice mission (1 minute)\n\n**KODI:** Your mission: ask Claude to **introduce itself in a rhyme**, then ask for **one follow-up** (funnier, or about your favorite topic). Take a screenshot for +30 XP and the **Hello Claude!** badge.\n\n**Recipe prompt (copy):**\n```\nHello Claude! Introduce yourself as a funny rhyme about [your favorite topic, for example cats].\n```\n\n**KODI:** *(happy)* You can now chat with Claude! Next lesson, we use a recipe so the answers fit you better.",
+   "quiz": [
+    {
+     "q": "What is Claude?",
+     "options": [
+      "A human friend on the internet",
+      "An AI assistant you can chat with by message",
+      "A search engine like Google"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "True or false: \"Claude only gives a list of links, and we read them ourselves.\"",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1,
+     "note": "Claude answers directly, like a conversation"
+    },
+    {
+     "q": "Where do we type messages to Claude?",
+     "options": [
+      "In the Google search box",
+      "In the message box at the bottom of the screen",
+      "In SMS"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "images": [
+   "content/img/1.1/gambar-sampul-pelajaran.webp",
+   "content/img/1.1/sampul-kodi-dan-kunci-akun.webp",
+   "content/img/1.1/sampul-obrolan-pertama.webp",
+   "content/img/1.1/badge-halo-claude.webp",
+   "content/img/1.1/gambar-claude-vs-google.webp",
+   "content/img/1.1/infografis-3-langkah-tanpa-teks-teks-ditambah-di-c.webp"
+  ]
+ },
+ "1.2": {
+  "id": {
+   "title": "Resep Prompt: Siapa, Apa, Gimana",
+   "body": "**Durasi:** sekitar 6 menit · **Hadiah:** +20 XP selesai, +10 XP kuis sempurna, +30 XP misi\n**Tujuan:** user bisa mengubah perintah pendek menjadi perintah yang jelas dengan rumus Siapa, Apa, Gimana.\n\n---\n\n## Adegan 1: Cerita Kodi (1 menit)\n\n*(Kodi di warung, memakai celemek kecil, ekspresi bingung)*\n\n**KODI:** Tadi aku ke warung dan bilang: \"Bu, minta makanan.\" Ibunya bingung. Makanan apa? Berapa? Pedas atau tidak?\n\n**KODI:** Akhirnya aku dikasih... kerupuk satu. Padahal aku mau nasi goreng! *(ups)*\n\n**KODI:** Ke Claude juga sama. Pesan yang kita ketik namanya **prompt**, artinya **pesan perintah ke asisten**. Makin jelas pesannya, makin pas hasilnya.\n\n## Adegan 2: Contoh di layar (3 menit)\n\n**KODI:** Ini rumus rahasia Claudy. Namanya **Resep Prompt: Siapa, Apa, Gimana**.\n\n| Bagian | Pertanyaan | Contoh |\n|---|---|---|\n| 👤 **Siapa** | Untuk siapa? Atau Claude jadi siapa? | \"untuk keluarga 4 orang dengan 2 anak kecil\" |\n| 📝 **Apa** | Apa yang diminta? | \"resep makan malam dari ayam dan sayur bayam\" |\n| 🎨 **Gimana** | Bentuknya seperti apa? | \"tidak pedas, kurang dari 30 menit, langkah bernomor\" |\n\n**Sebelum (kurang jelas):**\n```\nBuat resep.\n```\nHasilnya bisa apa saja: kue, sup, atau masakan yang bahannya susah dicari.\n\n**Sesudah (pakai resep):**\n```\nBuatkan resep makan malam dari ayam dan bayam, untuk keluarga 4 orang dengan 2 anak kecil. Tidak pedas, selesai kurang dari 30 menit, tulis langkahnya bernomor dan bahasanya sederhana.\n```\nHasilnya pas dengan kebutuhan keluarga.\n\n**KODI:** *(berpikir)* Tidak harus urut kok. Yang penting tiga-tiganya ada.\n\n## Adegan 3: Misi praktik (2 menit)\n\n**KODI:** Misimu: ubah perintah **\"Buat resep\"** jadi perintah lengkap pakai Siapa, Apa, Gimana. Kirim ke Claude, lalu bandingkan hasilnya. Screenshot untuk +30 XP!\n\n**Resep Prompt (salin dan ganti bagian dalam kurung):**\n```\nBuatkan [apa yang diminta] untuk [siapa]. Buat [gimana: panjang, gaya bahasa, bentuk].\n```",
+   "quiz": [
+    {
+     "q": "Pilih prompt yang PALING jelas:",
+     "options": [
+      "Buat surat.",
+      "Buat surat izin.",
+      "Buatkan surat izin tidak masuk sekolah untuk anak saya kelas 2 SD karena demam, bahasa sopan, maksimal 5 kalimat."
+     ],
+     "answer": 2,
+     "note": ""
+    },
+    {
+     "q": "Dalam rumus Siapa, Apa, Gimana, bagian \"tidak pedas dan langkahnya bernomor\" termasuk bagian apa?",
+     "options": [
+      "Siapa",
+      "Apa",
+      "Gimana"
+     ],
+     "answer": 2,
+     "note": ""
+    },
+    {
+     "q": "Prompt itu artinya apa?",
+     "options": [
+      "Pesan perintah yang kita ketik ke asisten",
+      "Nama aplikasi",
+      "Tombol kirim"
+     ],
+     "answer": 0,
+     "note": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "The Prompt Recipe (Who, What, How)",
+   "body": "**Length:** about 6 minutes · **Rewards:** +20 XP for finishing, +10 XP perfect quiz, +30 XP mission\n**Goal:** the learner can turn a short request into a clear one using Who, What, How.\n\n---\n\n## Scene 1: Kodi's story (1 minute)\n\n*(Kodi at a small food stall wearing a tiny apron, confused face)*\n\n**KODI:** I went to a food stall and said: \"Some food, please.\" The owner was confused. What food? How much? Spicy or not?\n\n**KODI:** In the end, I got... one cracker. But I wanted fried rice! *(oops)*\n\n**KODI:** It's the same with Claude. The message we type is called a **prompt**, which means **an instruction message to the assistant**. The clearer the message, the better the result.\n\n## Scene 2: On-screen example (3 minutes)\n\n**KODI:** Here's Claudy's secret formula. It's called the **Prompt Recipe: Who, What, How**.\n\n| Part | Question | Example |\n|---|---|---|\n| 👤 **Who** | Who is it for? Or who should Claude be? | \"for a family of 4 with 2 small kids\" |\n| 📝 **What** | What are you asking for? | \"a dinner recipe using chicken and spinach\" |\n| 🎨 **How** | What should it look like? | \"not spicy, under 30 minutes, numbered steps\" |\n\n**Before (unclear):**\n```\nMake a recipe.\n```\nThe result could be anything: a cake, a soup, or something with hard-to-find ingredients.\n\n**After (using the recipe):**\n```\nGive me a dinner recipe using chicken and spinach, for a family of 4 with 2 small kids. Not spicy, ready in under 30 minutes, with numbered steps in simple words.\n```\nThe result fits the family's needs.\n\n**KODI:** *(thinking)* The order doesn't matter. Just make sure all three are there.\n\n## Scene 3: Practice mission (2 minutes)\n\n**KODI:** Your mission: turn **\"Make a recipe\"** into a full request using Who, What, How. Send it to Claude and compare the results. Screenshot it for +30 XP!\n\n**Prompt Recipe (copy and replace the parts in brackets):**\n```\nPlease make [what you want] for [who]. Make it [how: length, tone, format].\n```",
+   "quiz": [
+    {
+     "q": "Pick the CLEAREST prompt:",
+     "options": [
+      "Write a letter.",
+      "Write a sick note.",
+      "Write a sick note for my 2nd-grade child who has a fever and can't go to school, polite tone, 5 sentences max."
+     ],
+     "answer": 2,
+     "note": ""
+    },
+    {
+     "q": "In Who, What, How, which part is \"not spicy, with numbered steps\"?",
+     "options": [
+      "Who",
+      "What",
+      "How"
+     ],
+     "answer": 2,
+     "note": ""
+    },
+    {
+     "q": "What does \"prompt\" mean?",
+     "options": [
+      "The instruction message we type to the assistant",
+      "The name of an app",
+      "The send button"
+     ],
+     "answer": 0,
+     "note": ""
+    }
+   ]
+  },
+  "images": [
+   "content/img/1.2/sampul-resep-prompt.webp",
+   "content/img/1.2/kartu-rumus-teks-ditambah-di-canva.webp"
+  ]
+ },
+ "1.3": {
+  "id": {
+   "title": "Kirim foto dan pakai suara",
+   "body": "**Durasi:** sekitar 9 menit · **Hadiah:** +20 XP selesai, +10 XP kuis sempurna, +30 XP misi\n**Tujuan:** user bisa mengirim foto ke Claude untuk dapat ide nyata, dan bisa bertanya lewat suara.\n\n> Catatan produksi: letak tombol foto dan suara bisa berubah. Cek dulu di versi aplikasi terbaru.\n\n---\n\n## Adegan 1: Cerita Kodi (1 menit)\n\n*(Kodi membuka pintu kulkas, ekspresi bingung)*\n\n**KODI:** Sore-sore, perut lapar. Buka kulkas... ada telur, wortel, tahu, sedikit kangkung. Mau masak apa ya?\n\n**KODI:** Mengetik semua isi kulkas itu capek. Untung Claude punya **mata**! Kita cukup **foto**, lalu kirim.\n\n*(ekspresi ups)*\n\n**KODI:** Aku pernah kirim foto... kakiku sendiri. Claude bilang, \"Sepertinya ini kaki robot, bukan isi kulkas.\" Hehe, fotonya harus yang benar ya!\n\n## Adegan 2: Kirim foto isi kulkas (3 menit)\n\n**Langkah kirim foto:**\n1. Buka obrolan di Claude.\n2. Tekan tombol **tambah (+)** atau gambar **klip/kamera** di dekat kotak pesan.\n3. Pilih **Kamera** untuk foto langsung, atau **Galeri/Foto** untuk foto yang sudah ada.\n4. Setelah foto muncul di kotak pesan, **ketik pertanyaanmu**, lalu tekan kirim.\n\n**Contoh pesan bersama foto kulkas:**\n```\nIni isi kulkasku. Kasih 3 ide masakan untuk makan malam keluarga, yang gampang dan tidak perlu belanja lagi.\n```\n\n**KODI:** *(semangat)* Tips: foto yang **terang** dan **tidak buram** membuat Claude lebih mudah melihat.\n\n> ⚠️ Jangan kirim foto KTP, kartu ATM, atau dokumen rahasia. Kita bahas lagi di pelajaran 1.4.\n\n## Adegan 3: Bicara, jangan mengetik (2 menit)\n\n**KODI:** *(berpikir)* Tanganku penuh tepung kalau lagi menguleni adonan. Untung Claude bisa **diajak bicara**!\n\n**Ada dua cara pakai suara:**\n\n**Cara 1: Mode suara (ngobrol langsung)**\n1. Buka aplikasi Claude di HP.\n2. Tekan tombol **suara** (gambar gelombang suara) di dekat kotak pesan.\n3. Kalau diminta izin mikrofon, tekan **Izinkan**.\n4. Bicara seperti biasa, lalu Claude menjawab dengan **suara**.\n\n**Cara 2: Dikte (bicara jadi tulisan)**\n1. Tekan gambar **mikrofon** di kotak pesan atau di keyboard HP.\n2. Bicara, lalu ucapanmu berubah jadi tulisan. Periksa, lalu tekan kirim.\n\n**KODI:** Tips: bicara di tempat yang **tidak berisik**, pelan dan jelas. Bahasa Indonesia boleh, bahasa daerah juga bisa dicoba!\n\n## Adegan 4: Misi praktik (2 menit)\n\n**KODI:** Misimu ada dua, pilih salah satu yang kamu suka:\n1. **Foto** isi kulkas atau lemari dapurmu, lalu minta ide masakan.\n2. **Bicara** ke Claude, minta satu tips, misalnya tips menyimpan sayur supaya awet.\n\nScreenshot hasilnya untuk +30 XP!\n\n**Resep Prompt (salin dan ganti bagian dalam kurung):**\n```\nIni foto isi kulkasku. Kasih [jumlah] ide masakan untuk [siapa], yang [gimana: gampang, tidak pedas, kurang dari 30 menit].\n```",
+   "quiz": [
+    {
+     "q": "Tombol apa yang ditekan untuk mengirim foto?",
+     "options": [
+      "Tombol tambah (+) atau klip di dekat kotak pesan",
+      "Tombol volume HP",
+      "Tombol kembali"
+     ],
+     "answer": 0,
+     "note": ""
+    },
+    {
+     "q": "Foto seperti apa yang paling mudah dibaca Claude?",
+     "options": [
+      "Gelap dan buram",
+      "Terang dan jelas",
+      "Dari jauh sekali"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Ibu sedang menguleni adonan, tangannya penuh tepung. Mana cara yang paling pas?",
+     "options": [
+      "Berhenti dulu, ketik pertanyaan pelan-pelan di HP",
+      "Tekan tombol suara, lalu tanya langsung",
+      "Minta anak mengetikkan pertanyaannya"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "Send a photo and use your voice",
+   "body": "**Duration:** about 9 minutes · **Reward:** +20 XP for finishing, +10 XP for a perfect quiz, +30 XP for the mission\n**Goal:** the learner can send a photo to Claude to get real ideas, and can ask a question by voice.\n\n> Production note: the photo and voice buttons may move. Check the latest app version first.\n\n---\n\n## Scene 1: Kodi's story (1 minute)\n\n*(Kodi opens the fridge door, confused)*\n\n**KODI:** Late afternoon, and I'm hungry. Eggs, carrots, tofu, a little spinach. What should I cook?\n\n**KODI:** Typing the whole fridge is tiring. Luckily Claude has **eyes**! Just take a **photo** and send it.\n\n*(oops face)*\n\n**KODI:** I once sent a photo of my own foot. Claude said, \"This looks like a robot foot, not a fridge.\" Make sure the photo is the right one!\n\n## Scene 2: Send a photo of your fridge (3 minutes)\n\n**Steps to send a photo:**\n1. Open a chat with Claude.\n2. Tap the **plus (+)** button or the **clip/camera** icon near the message box.\n3. Choose **Camera** for a new photo, or **Gallery/Photos** for an existing one.\n4. Once the photo appears in the box, **type your question**, then tap send.\n\n**Example message with a fridge photo:**\n```\nThis is my fridge. Give me 3 dinner ideas for my family, easy ones that do not need more shopping.\n```\n\n**KODI:** *(excited)* Tip: a **bright** and **sharp** photo helps Claude see better.\n\n> ⚠️ Never send photos of your ID card, ATM card, or private documents. We cover this again in lesson 1.4.\n\n## Scene 3: Talk, don't type (2 minutes)\n\n**KODI:** *(thinking)* My hands are full of flour when I knead dough. Luckily Claude can be **spoken to**!\n\n**There are two ways to use your voice:**\n\n**Way 1: Voice mode (talk directly)**\n1. Open the Claude app on your phone.\n2. Tap the **voice** button (sound-wave icon) near the message box.\n3. If asked for microphone access, tap **Allow**.\n4. Speak normally. Claude answers with a **voice**.\n\n**Way 2: Dictation (speech to text)**\n1. Tap the **microphone** icon in the message box, or on your phone keyboard.\n2. Speak. Your words turn into text. Check them, then tap send.\n\n**KODI:** Tip: speak in a **quiet** place, slowly and clearly. Indonesian is fine, and you can even try a regional language!\n\n## Scene 4: Practice mission (2 minutes)\n\n**KODI:** Your mission has two options. Pick the one you like:\n1. **Photo** of your fridge or kitchen cupboard, then ask for meal ideas.\n2. **Speak** to Claude and ask for one tip, for example how to keep vegetables fresh.\n\nTake a screenshot for +30 XP!\n\n**Recipe prompt (copy and replace the parts in brackets):**\n```\nThis is a photo of my fridge. Give me [number] meal ideas for [who], that are [how: easy, not spicy, under 30 minutes].\n```",
+   "quiz": [
+    {
+     "q": "Which button do you press to send a photo?",
+     "options": [
+      "The plus (+) or clip button near the message box",
+      "The phone volume button",
+      "The back button"
+     ],
+     "answer": 0,
+     "note": ""
+    },
+    {
+     "q": "What kind of photo is easiest for Claude to read?",
+     "options": [
+      "Dark and blurry",
+      "Bright and clear",
+      "Taken from very far away"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "A mother is kneading dough, and her hands are full of flour. What is the best way to ask?",
+     "options": [
+      "Stop, and type the question slowly on the phone",
+      "Press the voice button and ask out loud",
+      "Ask a child to type it for her"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "images": [
+   "content/img/1.3/sampul-kodi-bicara-ke-hp.webp",
+   "content/img/1.3/sampul-kodi-memotret-kulkas.webp",
+   "content/img/1.3/contoh-foto-kulkas-untuk-latihan-realistis.webp",
+   "content/img/1.3/ikon-dua-cara-teks-ditambah-di-canva.webp"
+  ]
+ },
+ "1.4": {
+  "id": {
+   "title": "Cek jawaban dan jaga data",
+   "body": "**Durasi:** sekitar 10 menit · **Hadiah:** +20 XP selesai, +10 XP kuis sempurna, +30 XP misi, 🎓 sertifikat Modul 1 (untuk paket berbayar)\n**Tujuan:** user tahu kapan jawaban Claude perlu dicek, data apa yang tidak boleh dibagikan, dan cara memakai AI dengan jujur.\n\n---\n\n## Adegan 1: Cerita Kodi (1 menit)\n\n*(Kodi membawa peta, ekspresi semangat)*\n\n**KODI:** Aku mau ke rumah nenek. Kata temanku, belok kiri di warung bakso. Aku percaya saja... dan aku sampai di kolam ikan! *(ups)*\n\n**KODI:** Temanku tidak bohong. Dia cuma **salah ingat**. Claude juga begitu. Claude pintar, tapi kadang salah, dan anehnya, kadang salah dengan sangat yakin. Jadi kita harus jadi **detektif**!\n\n## Adegan 2: Kapan Claude mungkin salah (2 menit)\n\n- 📅 **Berita atau info terbaru** (harga hari ini, jadwal, kejadian minggu ini)\n- 🔢 **Angka dan hitungan panjang**\n- 🏥 **Kesehatan, obat, hukum, uang**. Untuk hal penting, tetap tanya ahlinya.\n- 📍 **Alamat, nomor telepon, jam buka toko**\n\n**4 jurus detektif Claudy:**\n1. 🔍 **Cek ke sumber lain.** Cari di Google atau situs resmi.\n2. ❓ **Tanya balik ke Claude.** Ketik: `Kamu yakin? Dari mana info ini?`\n3. 🧩 **Minta penjelasan langkah demi langkah.** Hitungan yang salah jadi kelihatan.\n4. 🧠 **Pakai akal sehat.** Kalau jawabannya terasa aneh, jangan langsung percaya.\n\n**Contoh:** kamu tanya *\"Berapa harga cabai di pasar hari ini?\"* Claude yang baik akan bilang ia **tidak tahu harga hari ini**. Kalau Claude malah menyebut angka pasti, itu tanda kita harus cek dulu.\n\n## Adegan 3: Jaga \"kunci rumah\" digital (2 menit)\n\n**KODI:** Kalau ada orang asing minta kunci rumahmu, kamu kasih? Tentu tidak! Di internet juga ada kunci rumah: **PIN, kata sandi, kode OTP**.\n\n**🚫 Jangan pernah dibagikan (lampu merah):**\n- PIN ATM, kata sandi, **kode OTP** dari SMS\n- Foto **KTP, KK, kartu ATM/kredit**, buku tabungan\n- Nomor rekening lengkap beserta data login bank\n- Data pribadi orang lain tanpa izin\n\n**🟡 Hati-hati (lampu kuning):**\n- Alamat rumah lengkap. Cukup tulis nama kota kalau perlu.\n- Masalah kesehatan pribadi. Boleh bertanya umum, tanpa nama dan nomor identitas.\n\n**🟢 Aman (lampu hijau):** resep, ide usaha, tugas sekolah, surat, caption, belajar bahasa.\n\n**🚨 Waspada penipuan** yang mengaku \"admin Claude\" lalu meminta transfer atau kode OTP. Claude tidak pernah meminta itu.\n\n## Adegan 4: Misi praktik (2 menit)\n\n**KODI:** Misimu ada dua:\n1. Tanya Claude satu **fakta** (misalnya \"Kapan Hari Batik Nasional?\"), lalu **cek jawabannya** di Google atau situs resmi. Sama atau beda?\n2. Minta Claude membuat **3 aturan aman internet** untuk keluargamu.\n\nScreenshot untuk +30 XP!\n\n**Resep Prompt (salin):**\n```\nBuatkan 3 aturan aman memakai internet dan AI untuk keluargaku yang punya [usia anak] anak. Bahasa sederhana, bisa ditempel di kulkas.\n```\n\n**KODI:** *(semangat)* Selamat! Kamu sudah menyelesaikan **Modul 1**! Berikutnya, kita jadikan Claude asisten harian di rumah.",
+   "quiz": [
+    {
+     "q": "Benar atau salah: \"Claude selalu benar.\"",
+     "options": [
+      "Benar",
+      "Salah"
+     ],
+     "answer": 1,
+     "note": "Claude bisa keliru, jadi cek dulu untuk hal penting"
+    },
+    {
+     "q": "Ada pesan: \"Saya admin Claude, kirim kode OTP-mu agar akun aman.\" Apa yang kamu lakukan?",
+     "options": [
+      "Kirim kodenya",
+      "Abaikan dan jangan kirim apa pun, ini penipuan",
+      "Kirim setengah kodenya saja"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Untuk pertanyaan tentang obat, apa yang sebaiknya dilakukan?",
+     "options": [
+      "Langsung ikuti jawaban Claude",
+      "Pakai jawaban Claude sebagai bahan, lalu tanya dokter atau apoteker",
+      "Tanya Claude tiga kali sampai jawabannya sama"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "Check answers and protect your data",
+   "body": "**Duration:** about 10 minutes · **Reward:** +20 XP for finishing, +10 XP for a perfect quiz, +30 XP for the mission, 🎓 Module 1 certificate (for the paid plan)\n**Goal:** the learner knows when to double-check Claude's answers, which data must never be shared, and how to use AI honestly.\n\n---\n\n## Scene 1: Kodi's story (1 minute)\n\n*(Kodi holds a map, excited)*\n\n**KODI:** I'm going to grandma's house. My friend said, turn left at the meatball stall. I believed him... and ended up at a fish pond! *(oops)*\n\n**KODI:** My friend did not lie. He just **remembered wrong**. Claude can be the same. Claude is smart, but sometimes wrong, and oddly, sometimes wrong with great confidence. So we become **detectives**!\n\n## Scene 2: When Claude might be wrong (2 minutes)\n\n- 📅 **Latest news or information** (today's prices, schedules, this week's events)\n- 🔢 **Long numbers and calculations**\n- 🏥 **Health, medicine, law, money.** For important matters, always ask an expert.\n- 📍 **Addresses, phone numbers, shop opening hours**\n\n**4 detective moves of Claudy:**\n1. 🔍 **Check another source.** Search on Google or an official website.\n2. ❓ **Ask Claude back.** Type: `Are you sure? Where does this information come from?`\n3. 🧩 **Ask for step-by-step explanations.** Mistakes in math become visible.\n4. 🧠 **Use common sense.** If an answer feels odd, do not believe it right away.\n\n**Example:** you ask *\"What is the chili price at the market today?\"* A good Claude will say it **does not know today's price**. If Claude gives an exact number, that is the sign to check first.\n\n## Scene 3: Protect your digital \"house key\" (2 minutes)\n\n**KODI:** If a stranger asked for your house key, would you give it? Of course not! Online there are house keys too: **PIN, passwords, OTP codes**.\n\n**🚫 Never share (red light):**\n- ATM PIN, passwords, **OTP codes** from SMS\n- Photos of **ID cards, family card, ATM/credit cards**, bank books\n- Full account numbers together with bank login details\n- Other people's personal data without permission\n\n**🟡 Be careful (yellow light):**\n- Full home address. Writing the city name is enough.\n- Personal health problems. You can ask general questions, without names or ID numbers.\n\n**🟢 Safe (green light):** recipes, business ideas, school homework, letters, captions, language practice.\n\n**🚨 Watch out for scams** where someone claims to be \"Claude admin\" and asks for a transfer or an OTP code. Claude never asks for that.\n\n## Scene 4: Practice mission (2 minutes)\n\n**KODI:** You have two missions:\n1. Ask Claude one **fact** (for example \"When is National Batik Day in Indonesia?\"), then **check the answer** on Google or an official site. Same or different?\n2. Ask Claude to create **3 internet safety rules** for your family.\n\nTake screenshots for +30 XP!\n\n**Recipe prompt (copy):**\n```\nMake 3 safe rules for using the internet and AI for my family, with [number of children] children. Simple language, something that can be stuck on the fridge.\n```\n\n**KODI:** *(happy)* Well done! You finished **Module 1**! Next, we make Claude your daily helper at home.",
+   "quiz": [
+    {
+     "q": "True or false: \"Claude is always right.\"",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": 1,
+     "note": "Claude can make mistakes, so check important things"
+    },
+    {
+     "q": "A message says: \"I am Claude admin, send me your OTP code so your account stays safe.\" What do you do?",
+     "options": [
+      "Send the code",
+      "Ignore it and send nothing. This is a scam",
+      "Send half the code"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "For questions about medicine, what should you do?",
+     "options": [
+      "Follow Claude's answer right away",
+      "Use Claude's answer as a starting point, then ask a doctor or pharmacist",
+      "Ask Claude three times until the answers match"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "images": [
+   "content/img/1.4/sampul-kodi-detektif.webp",
+   "content/img/1.4/sampul-kodi-penjaga-data.webp",
+   "content/img/1.4/kartu-4-jurus-detektif-teks-ditambah-di-canva.webp",
+   "content/img/1.4/lampu-lalu-lintas-data-teks-ditambah-di-canva.webp",
+   "content/img/1.4/gambar-perayaan-modul-1-selesai.webp"
+  ]
+ },
+ "2.1": {
+  "id": {
+   "title": "Menu masak seminggu",
+   "body": "**Durasi:** sekitar 6 menit · **Hadiah:** +20 XP selesai, +10 XP kuis sempurna, +30 XP misi, 🏅 badge **Juru Masak Digital**\n**Tujuan:** user membuat menu 7 hari dan daftar belanja dengan budget Rp300.000.\n**Kostum Kodi:** celemek (Modul 2)\n\n---\n\n## Adegan 1: Cerita Kodi (1 menit)\n\n*(Kodi memakai celemek, berdiri di depan kalender, ekspresi bingung)*\n\n**KODI:** Setiap pagi pertanyaannya sama: \"Hari ini masak apa?\" Pusing kan?\n\n**KODI:** Kemarin aku masak telur dadar. Hari ini telur dadar. Besok... telur dadar lagi? *(ups)* Keluargaku protes, hehe.\n\n**KODI:** *(semangat)* Mulai sekarang, Claude jadi **asisten dapur**. Sekali minta, menu seminggu langsung jadi, lengkap dengan daftar belanjanya!\n\n## Adegan 2: Contoh di layar (3 menit)\n\n**KODI:** Ingat Resep Prompt **Siapa, Apa, Gimana**? Kita pakai lagi!\n\n**Prompt lengkap:**\n```\nKamu adalah ahli gizi rumahan. Buatkan menu makan siang dan makan malam selama 7 hari untuk keluarga 4 orang (2 dewasa, 2 anak usia 5 dan 9 tahun).\nBudget belanja total Rp300.000 untuk seminggu. Pakai bahan yang mudah dicari di pasar, tidak pedas untuk anak, dan bervariasi (jangan ada menu yang sama 2 kali).\nTampilkan dalam tabel: Hari, Makan Siang, Makan Malam.\nSetelah itu, buat daftar belanja yang dikelompokkan (sayur, lauk, bumbu) dengan perkiraan harga.\n```\n\n**Contoh sebagian hasil (bisa berbeda):**\n\n| Hari | Makan Siang | Makan Malam |\n|---|---|---|\n| Senin | Sayur bening bayam + tempe goreng | Telur balado manis + tumis buncis |\n| Selasa | Sup ayam wortel | Tahu kecap + sayur sop sisa |\n| Rabu | Pepes ikan kembung | Orak-arik telur sayur |\n\n**KODI:** *(berpikir)* Ingat pelajaran 1.4! Harga dari Claude itu **perkiraan**. Harga di pasarmu bisa beda. Bawa daftar belanjanya, lalu sesuaikan.\n\n**Minta lanjutan, misalnya:**\n- `Ganti menu hari Rabu, anakku tidak suka ikan.`\n- `Budget-nya turun jadi Rp250.000, sesuaikan ya.`\n- `Tambahkan menu sarapan yang praktis.`\n\n## Adegan 3: Misi praktik (2 menit)\n\n**KODI:** Misimu: buat **menu 7 hari + daftar belanja** untuk keluargamu dengan budget Rp300.000 (atau budget-mu sendiri). Screenshot hasilnya untuk +30 XP dan badge **Juru Masak Digital**!\n\n**Resep Prompt (salin dan ganti bagian dalam kurung):**\n```\nBuatkan menu [makan siang dan makan malam] selama 7 hari untuk keluarga [jumlah orang dan usia anak]. Budget total [Rp300.000] seminggu. [Pantangan: tidak pedas / tanpa udang / dll]. Tampilkan dalam tabel, lalu buat daftar belanja dengan perkiraan harga.\n```",
+   "quiz": [
+    {
+     "q": "Apa yang membuat menu dari Claude cocok untuk keluargamu?",
+     "options": [
+      "Menyebut jumlah orang, budget, dan pantangan makanan",
+      "Hanya mengetik \"menu\"",
+      "Mengetik dengan huruf besar"
+     ],
+     "answer": 0,
+     "note": ""
+    },
+    {
+     "q": "Harga di daftar belanja dari Claude itu...",
+     "options": [
+      "Pasti sama dengan harga di pasar",
+      "Perkiraan, jadi perlu disesuaikan dengan harga di pasarmu"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Anakmu tidak suka ikan. Apa yang kamu ketik?",
+     "options": [
+      "Mulai chat baru dan ulang semuanya",
+      "\"Ganti menu yang ada ikannya, anakku tidak suka ikan.\"",
+      "Tidak bisa diubah"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "Weekly Meal Planner",
+   "body": "**Length:** about 6 minutes · **Rewards:** +20 XP for finishing, +10 XP perfect quiz, +30 XP mission, 🏅 **Digital Chef** badge\n**Goal:** the learner creates a 7-day menu and a shopping list on a Rp300,000 budget.\n**Kodi's costume:** apron (Module 2)\n\n---\n\n## Scene 1: Kodi's story (1 minute)\n\n*(Kodi in an apron stands in front of a calendar, confused face)*\n\n**KODI:** Every morning it's the same question: \"What should I cook today?\" Headache, right?\n\n**KODI:** Yesterday I made an omelette. Today, an omelette. Tomorrow... another omelette? *(oops)* My family complained, hehe.\n\n**KODI:** *(excited)* From now on, Claude is your **kitchen assistant**. Ask once, and you get a whole week's menu, with a shopping list too!\n\n## Scene 2: On-screen example (3 minutes)\n\n**KODI:** Remember the **Who, What, How** Prompt Recipe? Let's use it again!\n\n**Full prompt:**\n```\nYou are a home nutrition expert. Make a lunch and dinner menu for 7 days for a family of 4 (2 adults, 2 kids aged 5 and 9).\nTotal grocery budget is Rp300,000 for the week. Use ingredients that are easy to find at a local market, nothing spicy for the kids, and keep it varied (no dish twice).\nShow it in a table: Day, Lunch, Dinner.\nThen make a shopping list grouped by vegetables, protein, and seasonings, with estimated prices.\n```\n\n**Part of an example result (yours may differ):**\n\n| Day | Lunch | Dinner |\n|---|---|---|\n| Monday | Clear spinach soup + fried tempeh | Sweet balado eggs + stir-fried green beans |\n| Tuesday | Chicken and carrot soup | Tofu in sweet soy sauce + leftover vegetable soup |\n| Wednesday | Steamed spiced mackerel | Scrambled eggs with vegetables |\n\n**KODI:** *(thinking)* Remember lesson 1.7! Prices from Claude are **estimates**. Prices at your market may differ. Take the list with you and adjust.\n\n**Ask for follow-ups, like:**\n- `Change Wednesday's menu, my kid doesn't like fish.`\n- `Lower the budget to Rp250,000, please adjust.`\n- `Add quick breakfast ideas.`\n\n## Scene 3: Practice mission (2 minutes)\n\n**KODI:** Your mission: make a **7-day menu + shopping list** for your family with a Rp300,000 budget (or your own budget). Screenshot it for +30 XP and the **Digital Chef** badge!\n\n**Prompt Recipe (copy and replace the parts in brackets):**\n```\nMake a [lunch and dinner] menu for 7 days for a family of [number of people and kids' ages]. Total budget [Rp300,000] for the week. [Restrictions: not spicy / no shrimp / etc.]. Show it in a table, then make a shopping list with estimated prices.\n```",
+   "quiz": [
+    {
+     "q": "What makes Claude's menu fit your family?",
+     "options": [
+      "Mentioning the number of people, the budget, and food restrictions",
+      "Just typing \"menu\"",
+      "Typing in capital letters"
+     ],
+     "answer": 0,
+     "note": ""
+    },
+    {
+     "q": "The prices on Claude's shopping list are...",
+     "options": [
+      "Always the same as at the market",
+      "Estimates, so adjust them to your local prices"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Your child doesn't like fish. What do you type?",
+     "options": [
+      "Start a new chat and repeat everything",
+      "\"Replace the fish dishes, my kid doesn't like fish.\"",
+      "It can't be changed"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "images": [
+   "content/img/2.1/sampul-menu-seminggu.webp",
+   "content/img/2.1/badge-juru-masak-digital.webp"
+  ]
+ },
+ "2.2": {
+  "id": {
+   "title": "Atur keuangan keluarga",
+   "body": "**Durasi:** sekitar 6 menit · **Hadiah:** +20 XP selesai, +10 XP kuis sempurna, +30 XP misi\n**Tujuan:** user menyusun anggaran bulanan sederhana dari gaji atau pemasukan keluarga.\n**Kostum Kodi:** celemek (Modul 2)\n\n> Catatan: Claude membantu menyusun dan menghitung, tapi bukan penasihat keuangan resmi. Untuk utang, pinjaman, atau investasi, tetap tanya ahlinya.\n\n---\n\n## Adegan 1: Cerita Kodi (1 menit)\n\n*(Kodi memegang dompet yang kosong, ekspresi bingung)*\n\n**KODI:** Tanggal 1 gajian, dompet tebal. Tanggal 20... dompet tipis seperti kerupuk. Uangnya ke mana ya?\n\n**KODI:** Aku pernah coba catat di kertas, tapi kertasnya dipakai bungkus gorengan. *(ups)* Hehe.\n\n**KODI:** *(semangat)* Sekarang kita minta Claude bantu **membagi uang** ke \"amplop-amplop\" kebutuhan. Seperti cara nenek dulu menyimpan uang di amplop, tapi versi digital!\n\n## Adegan 2: Contoh di layar (3 menit)\n\n**Prompt lengkap:**\n```\nBantu aku menyusun anggaran bulanan keluarga. Pemasukan Rp4.000.000 per bulan. Keluarga 4 orang, 2 anak sekolah SD.\nPengeluaran tetap: listrik dan air sekitar Rp400.000, uang sekolah Rp500.000.\nAku ingin tetap bisa menabung sedikit. Tampilkan dalam tabel: Pos, Jumlah, Persen. Pastikan totalnya pas Rp4.000.000. Beri 3 tips hemat yang realistis.\n```\n\n**Contoh hasil (bisa berbeda):**\n\n| Pos (\"amplop\") | Jumlah | Persen |\n|---|---|---|\n| Makan & dapur | Rp1.400.000 | 35% |\n| Listrik, air, gas | Rp400.000 | 10% |\n| Sekolah anak | Rp500.000 | 12,5% |\n| Transportasi | Rp400.000 | 10% |\n| Pulsa & internet | Rp200.000 | 5% |\n| Arisan & kondangan | Rp200.000 | 5% |\n| Jajan & lain-lain | Rp300.000 | 7,5% |\n| Tabungan | Rp400.000 | 10% |\n| Dana darurat | Rp200.000 | 5% |\n| **Total** | **Rp4.000.000** | **100%** |\n\n**KODI:** *(berpikir)* Jurus detektif dari pelajaran 1.4: **cek totalnya!** Ketik ke Claude: `Tolong cek ulang, apakah totalnya benar-benar Rp4.000.000?` Atau hitung sendiri dengan kalkulator HP.\n\n**Minta lanjutan, misalnya:**\n- `Bulan depan ada kenaikan kelas, butuh Rp600.000 untuk seragam. Atur ulang ya.`\n- `Buatkan tabel catatan pengeluaran harian yang bisa aku isi.`\n\n## Adegan 3: Misi praktik (2 menit)\n\n**KODI:** Misimu: susun **anggaran bulanan** keluargamu bersama Claude. Kamu boleh pakai angka kira-kira, tidak perlu angka asli. Screenshot hasilnya untuk +30 XP!\n\n**Resep Prompt (salin dan ganti bagian dalam kurung):**\n```\nBantu aku menyusun anggaran bulanan. Pemasukan [jumlah] per bulan, keluarga [jumlah orang]. Pengeluaran tetap: [daftar]. Aku ingin menabung [jumlah atau persen]. Tampilkan dalam tabel dan pastikan totalnya pas.\n```\n\n> 🔒 Ingat pelajaran 1.4: cukup tulis angka. Jangan tulis nomor rekening, PIN, atau data login bank.\n\n**KODI:** *(semangat)* Hebat! Kamu sudah menyelesaikan **10 pelajaran gratis**. Kamu sudah bisa ngobrol, memberi perintah yang jelas, mengirim foto, memakai suara, mengecek jawaban, menjaga data, membuat menu, dan mengatur uang. Mau lanjut belajar membuat konten dan cuan dari Claude? Ayo buka pelajaran berikutnya!",
+   "quiz": [
+    {
+     "q": "Setelah Claude membuat tabel anggaran, apa yang sebaiknya dilakukan?",
+     "options": [
+      "Langsung percaya",
+      "Cek ulang totalnya, minta Claude mengecek atau hitung pakai kalkulator",
+      "Hapus tabelnya"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Data apa yang cukup ditulis saat menyusun anggaran?",
+     "options": [
+      "Jumlah pemasukan dan pengeluaran (boleh kira-kira)",
+      "Nomor rekening dan PIN",
+      "Foto buku tabungan"
+     ],
+     "answer": 0,
+     "note": ""
+    },
+    {
+     "q": "Isi bagian kosong: \"Bulan depan butuh uang seragam Rp600.000, tolong ____.\"",
+     "options": [
+      "\"atur ulang anggarannya\"",
+      "\"transfer uangnya\"",
+      "\"lupakan saja\""
+     ],
+     "answer": 0,
+     "note": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "Family Budget Helper",
+   "body": "**Length:** about 6 minutes · **Rewards:** +20 XP for finishing, +10 XP perfect quiz, +30 XP mission\n**Goal:** the learner builds a simple monthly budget from the family's income.\n**Kodi's costume:** apron (Module 2)\n\n> Note: Claude helps organize and calculate, but it isn't a licensed financial advisor. For debt, loans, or investing, ask a qualified professional.\n\n---\n\n## Scene 1: Kodi's story (1 minute)\n\n*(Kodi holds an empty wallet, confused face)*\n\n**KODI:** Payday on the 1st, my wallet is thick. By the 20th... it's as thin as a cracker. Where did the money go?\n\n**KODI:** I once tried writing it down on paper, but the paper got used to wrap fried snacks. *(oops)* Hehe.\n\n**KODI:** *(excited)* Now we'll ask Claude to help **split our money** into \"envelopes\" for each need. Like how grandma used to keep money in envelopes, but digital!\n\n## Scene 2: On-screen example (3 minutes)\n\n**Full prompt:**\n```\nHelp me make a monthly family budget. Income is Rp4,000,000 per month. Family of 4, 2 kids in elementary school.\nFixed costs: electricity and water about Rp400,000, school fees Rp500,000.\nI want to save a little. Show it in a table: Category, Amount, Percent. Make sure the total is exactly Rp4,000,000. Give 3 realistic money-saving tips.\n```\n\n**Example result (yours may differ):**\n\n| Category (\"envelope\") | Amount | Percent |\n|---|---|---|\n| Food & kitchen | Rp1,400,000 | 35% |\n| Electricity, water, gas | Rp400,000 | 10% |\n| School | Rp500,000 | 12.5% |\n| Transportation | Rp400,000 | 10% |\n| Phone & internet | Rp200,000 | 5% |\n| Community savings group & events | Rp200,000 | 5% |\n| Snacks & other | Rp300,000 | 7.5% |\n| Savings | Rp400,000 | 10% |\n| Emergency fund | Rp200,000 | 5% |\n| **Total** | **Rp4,000,000** | **100%** |\n\n**KODI:** *(thinking)* Detective move from lesson 1.7: **check the total!** Type to Claude: `Please double-check: does the total really add up to Rp4,000,000?` Or add it up yourself with your phone's calculator.\n\n**Ask for follow-ups, like:**\n- `Next month the kids move up a grade and need Rp600,000 for uniforms. Please rebalance.`\n- `Make me a daily spending log table I can fill in.`\n\n## Scene 3: Practice mission (2 minutes)\n\n**KODI:** Your mission: build your family's **monthly budget** with Claude. Rough numbers are fine, they don't have to be real. Screenshot the result for +30 XP!\n\n**Prompt Recipe (copy and replace the parts in brackets):**\n```\nHelp me make a monthly budget. Income is [amount] per month, family of [number of people]. Fixed costs: [list]. I want to save [amount or percent]. Show it in a table and make sure the total adds up.\n```\n\n> 🔒 Remember lesson 1.8: numbers are enough. Never type account numbers, PINs, or bank login details.\n\n**KODI:** *(excited)* Amazing! You've finished all **10 free lessons**. You can now chat, give clear instructions, send photos, use your voice, check answers, keep your data safe, plan meals, and manage money. Want to keep going and learn to create content and earn with Claude? Let's open the next lesson!",
+   "quiz": [
+    {
+     "q": "After Claude makes a budget table, what should you do?",
+     "options": [
+      "Trust it right away",
+      "Double-check the total, ask Claude to check or use a calculator",
+      "Delete the table"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "What information is enough when making a budget?",
+     "options": [
+      "Income and expense amounts (rough numbers are fine)",
+      "Account numbers and PINs",
+      "A photo of your bank book"
+     ],
+     "answer": 0,
+     "note": ""
+    },
+    {
+     "q": "Fill in the blank: \"Next month I need Rp600,000 for uniforms, please ____.\"",
+     "options": [
+      "\"rebalance the budget\"",
+      "\"transfer the money\"",
+      "\"forget it\""
+     ],
+     "answer": 0,
+     "note": ""
+    }
+   ]
+  },
+  "images": [
+   "content/img/2.2/sampul-amplop-keuangan.webp",
+   "content/img/2.2/perayaan-10-pelajaran-gratis-selesai.webp"
+  ]
+ },
+ "2.3": {
+  "id": {
+   "title": "Kalkulator anggaran yang bisa diklik",
+   "body": "**Durasi:** sekitar 8 menit · **Hadiah:** +20 XP selesai, +10 XP kuis sempurna, +30 XP misi, 🛠️ karya pertama: **Kalkulator Pertamaku**\n**Tujuan:** user membuat sendiri alat kecil (kalkulator anggaran) yang bisa diisi angka dan langsung menghitung. Ini pertama kalinya user meminta Claude membuat ALAT, bukan cuma teks.\n\n---\n\n## Adegan 1: Cerita Kodi (1 menit)\n\n*(Kodi memakai celemek, di depan tumpukan amplop, ekspresi bingung)*\n\n**KODI:** Kemarin di pelajaran 2.2 kita sudah bikin tabel anggaran. Keren! Tapi tabelnya diam saja. Kalau pengeluaran berubah, aku harus hitung ulang sendiri.\n\n**KODI:** *(semangat)* Hari ini kita minta Claude membuat **alat**. Alat yang bisa diisi angka, lalu langsung menghitung sisanya. Namanya **Artifact**: jendela kecil di dalam chat yang bisa kamu pakai langsung.\n\n*(ekspresi ups)*\n\n**KODI:** Aku pernah minta kalkulator, tapi Claude bikin pantun tentang kalkulator. Hehe. Makanya kita pakai **rumus Siapa, Apa, Gimana** dari pelajaran 1.2!\n\n## Adegan 2: Minta Claude membuat alat (3 menit)\n\n**KODI:** Buka chat baru di Claude, lalu tempel perintah ini. Ganti bagian dalam kurung dengan keadaanmu sendiri.\n\n```\nBuatkan kalkulator anggaran bulanan yang bisa dipakai langsung di layar, untuk keluarga [jumlah orang] orang.\nIsi kolom: pemasukan bulanan, lalu pengeluaran tetap (listrik, air, sekolah, transportasi, makan, dan lainnya yang aku tambahkan sendiri).\nSetiap kali angka diubah, tampilkan: total pengeluaran, sisa uang, dan persentase tiap pos.\nBeri peringatan dengan kalimat sederhana kalau sisa uang kurang dari 10% pemasukan.\nTampilannya sederhana, tombol besar, dan bahasanya Indonesia yang mudah dipahami.\n```\n\n**KODI:** Kalau Claude menampilkan kotak alat di sebelah chat, berarti berhasil! Coba ketik angkanya: pemasukan Rp4.000.000, lalu pengeluaran tetap.\n\n**Contoh:** pemasukan Rp4.000.000, listrik Rp400.000, sekolah Rp500.000. Sisa uang akan langsung terhitung di layar.\n\n> Kalau alatnya tidak muncul, minta Claude: `Tampilkan kalkulator ini sebagai artifact yang bisa dibuka.` Tombol dan letaknya bisa berbeda di tiap versi aplikasi. Cek dulu di aplikasimu.\n\n## Adegan 3: Ubah alatnya sesuai keluargamu (2 menit)\n\n**KODI:** Alat yang bagus itu bisa diubah. Coba minta lanjutan seperti ini:\n- `Tambahkan pos \"uang seragam\" dan \"arisan\", ya.`\n- `Ubah warnanya jadi lebih hangat, dan tulisannya lebih besar.`\n- `Kalau sisa uang kurang dari Rp200.000, tampilkan pesan semangat yang lembut.`\n\n**KODI:** *(berpikir)* Ingat jurus detektif dari pelajaran 1.4: **cek totalnya!** Hitung satu pos dengan kalkulator HP, lalu bandingkan.\n\n## Adegan 4: Misi praktik (2 menit)\n\n**KODI:** Misimu: buat **kalkulator anggaranmu sendiri** dengan angka keluargamu. Pakai angka kira-kira saja, tidak perlu angka asli. Lalu:\n\n1. **Screenshot** kalkulatormu yang sudah terisi.\n2. Tulis satu kalimat: \"Sisa uangku bulan ini adalah ...\"\n\nDapat +30 XP dan badge **Kalkulator Pertamaku**!\n\n> 🔒 Ingat pelajaran 1.4: di kalkulator cukup tulis angka. Jangan masukkan nomor rekening, PIN, atau data login bank.\n\n**Resep Prompt (salin dan ganti bagian dalam kurung):**\n```\nBuatkan kalkulator anggaran bulanan yang bisa dipakai langsung, untuk keluarga [jumlah orang] orang. Isi pemasukan dan pengeluaran tetap. Tampilkan total, sisa uang, dan persentase tiap pos setiap kali angka berubah. Bahasa Indonesia sederhana, tombol besar.\n```\n\n**KODI:** *(senang)* Kamu baru saja membuat alat sendiri! Di pelajaran berikutnya, kita buat **game** untuk anak.",
+   "quiz": [
+    {
+     "q": "Apa yang dimaksud dengan Artifact?",
+     "options": [
+      "Jendela alat kecil di dalam chat yang bisa dipakai langsung",
+      "Nama aplikasi Google",
+      "Tombol kirim pesan"
+     ],
+     "answer": 0,
+     "note": ""
+    },
+    {
+     "q": "Kalau kalkulator anggaran diisi angka baru, apa yang terjadi?",
+     "options": [
+      "Harus mulai chat baru",
+      "Total dan sisa uang ikut berubah di layar",
+      "Tidak terjadi apa-apa"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Angka apa yang aman dimasukkan ke kalkulator?",
+     "options": [
+      "Nomor rekening dan PIN ATM",
+      "Angka pemasukan dan pengeluaran yang boleh kira-kira",
+      "Foto KTP"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "A clickable budget calculator",
+   "body": "**Duration:** about 8 minutes · **Reward:** +20 XP for finishing, +10 XP for a perfect quiz, +30 XP for the mission, 🛠️ first creation: **My First Calculator**\n**Goal:** the learner builds a small tool (a budget calculator) that calculates as numbers are typed in. This is the first time the learner asks Claude to build a TOOL, not just text.\n\n---\n\n## Scene 1: Kodi's story (1 minute)\n\n*(Kodi wears an apron, in front of a pile of envelopes, confused)*\n\n**KODI:** In lesson 2.2 we made a budget table. Nice! But the table just sits there. When the spending changes, I have to recalculate by hand.\n\n**KODI:** *(excited)* Today we ask Claude to build a **tool**. A tool where you type numbers, and it works out the rest. It is called an **Artifact**: a small window inside the chat that you can use right away.\n\n*(oops face)*\n\n**KODI:** I once asked for a calculator, and Claude wrote a rhyme about calculators. Hehe. So we use the **Recipe prompt: Who, What, How** from lesson 1.2!\n\n## Scene 2: Ask Claude to build the tool (3 minutes)\n\n**KODI:** Open a new chat with Claude, then paste this prompt. Replace the parts in brackets with your own situation.\n\n```\nBuild a monthly budget calculator that I can use right on screen, for a family of [number of people].\nInput fields: monthly income, then fixed spending (electricity, water, school, transport, food, and anything else I add).\nEvery time a number changes, show: total spending, money left, and the percentage of each item.\nShow a simple warning if money left is less than 10% of income.\nKeep the design simple, with big buttons, and plain English.\n```\n\n**KODI:** If Claude shows the tool in a box next to the chat, it worked! Try typing numbers: income Rp4,000,000, then fixed spending.\n\n**Example:** income Rp4,000,000, electricity Rp400,000, school Rp500,000. The money left is calculated on screen right away.\n\n> If the tool does not appear, ask Claude: `Show this calculator as an artifact I can open.` Buttons and placement may differ between app versions. Check your app first.\n\n## Scene 3: Change the tool to fit your family (2 minutes)\n\n**KODI:** A good tool can be changed. Try asking for:\n- `Add the items \"uniform\" and \"social savings group\", please.`\n- `Change the colors to warmer ones, and make the text bigger.`\n- `If the money left is under Rp200,000, show a gentle encouraging message.`\n\n**KODI:** *(thinking)* Remember the detective move from lesson 1.4: **check the total!** Calculate one item with your phone calculator and compare.\n\n## Scene 4: Practice mission (2 minutes)\n\n**KODI:** Your mission: build **your own budget calculator** with your family's numbers. Rough numbers are fine. Then:\n\n1. **Take a screenshot** of your filled calculator.\n2. Write one sentence: \"My money left this month is ...\"\n\nYou get +30 XP and the **My First Calculator** badge!\n\n> 🔒 Remember lesson 1.4: in a calculator, only type numbers. Never enter account numbers, PINs, or bank login details.\n\n**Recipe prompt (copy and replace the parts in brackets):**\n```\nBuild a monthly budget calculator I can use right away, for a family of [number of people]. Fixed spending and income as inputs. Show total, money left, and the percentage of each item every time a number changes. Simple English, big buttons.\n```\n\n**KODI:** *(happy)* You just built your own tool! Next lesson, we build a **game** for kids.",
+   "quiz": [
+    {
+     "q": "What is an Artifact?",
+     "options": [
+      "A small tool window inside the chat that you can use right away",
+      "The name of a Google app",
+      "The send message button"
+     ],
+     "answer": 0,
+     "note": ""
+    },
+    {
+     "q": "When you type new numbers in the budget calculator, what happens?",
+     "options": [
+      "You have to start a new chat",
+      "The total and money left update on screen",
+      "Nothing happens"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Which numbers are safe to enter into the calculator?",
+     "options": [
+      "Bank account number and ATM PIN",
+      "Income and spending numbers, rough estimates are fine",
+      "A photo of your ID card"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "images": []
+ },
+ "2.4": {
+  "id": {
+   "title": "Game tebak kata untuk anak",
+   "body": "**Durasi:** sekitar 8 menit · **Hadiah:** +20 XP selesai, +10 XP kuis sempurna, +30 XP misi, 🎮 karya kedua: **Juara Game Keluarga**\n**Tujuan:** user membuat game kecil yang bisa dimainkan bersama anak, dan tahu cara memperbaiki kalau ada error.\n\n---\n\n## Adegan 1: Cerita Kodi (1 menit)\n\n*(Kodi duduk bersama dua anak kecil, ekspresi gembira)*\n\n**KODI:** Anak-anak minta main terus di HP. Aku bilang, \"Ayo kita bikin game sendiri!\" Mereka langsung teriak, \"Mau, mau!\"\n\n**KODI:** Kita pakai Claude untuk membuat **game tebak kata**. Anak menebak, ibu yang membacakan petunjuk. Seru, dan sekaligus belajar kosakata.\n\n*(ekspresi ups)*\n\n**KODI:** Tadi aku minta game, Claude membuat game yang tombolnya tidak bisa diklik. Aku bingung. Tapi Claude bisa diminta memperbaiki. Nanti kita lihat caranya.\n\n## Adegan 2: Minta Claude membuat game (3 menit)\n\n**KODI:** Buka chat baru, lalu tempel perintah ini. Sesuaikan usia anak dan tema yang kamu mau.\n\n```\nBuatkan game tebak kata sederhana untuk anak usia [usia] tahun, dalam bahasa Indonesia.\nTema: [misalnya hewan, buah, atau benda di dapur].\nTampilkan kotak huruf yang harus ditebak, tombol huruf A sampai Z, dan 3 nyawa.\nKalau tebakan benar, tampilkan gambar emoji dan pujian yang ceria. Kalau salah, beri petunjuk, bukan langsung kalah.\nTampilannya berwarna, tombol besar, dan mudah dipakai di HP.\n```\n\n**KODI:** Kalau game-nya muncul di layar, coba mainkan sendiri dulu. Lalu panggil anakmu!\n\n> Kalau game-nya tidak muncul, minta: `Tampilkan game ini sebagai artifact yang bisa dibuka.`\n\n## Adegan 3: Kalau ada error, bilang saja ke Claude (2 menit)\n\n**KODI:** *(panik)* Eh, tombolnya tidak mau berhenti? Tenang! Jangan takut. Salin pesan error atau ceritakan apa yang terjadi, lalu kirim ke Claude.\n\n**Contoh perintah saat ada masalah:**\n```\nGame tebak katanya belum benar: [ceritakan, misalnya huruf yang sudah ditekan tidak berubah jadi abu-abu]. Tolong perbaiki dan tampilkan versi lengkapnya.\n```\n\n**KODI:** Claude akan menulis ulang alatnya. Kamu tidak perlu mengerti kodenya. Cukup bilang apa yang salah.\n\n**Lanjutan yang seru:**\n- `Tambahkan level mudah dan sulit.`\n- `Ganti temanya jadi nama binatang, lalu tambahkan suara.`\n- `Buat 5 kata pertama lebih pendek untuk anak kecil.`\n\n## Adegan 4: Misi praktik (2 menit)\n\n**KODI:** Misimu: buat **game tebak kata** untuk anak atau keponakanmu, lalu mainkan bersama. Setelah itu:\n\n1. **Screenshot** game yang sudah jalan.\n2. Tulis satu kata yang berhasil ditebak anak.\n\nDapat +30 XP dan badge **Juara Game Keluarga**!\n\n> 🔒 Jangan tulis nama lengkap dan alamat anak di game. Cukup nama panggilan.\n\n**Resep Prompt (salin dan ganti bagian dalam kurung):**\n```\nBuatkan game tebak kata untuk anak usia [usia], tema [tema]. Kotak huruf, tombol A sampai Z, 3 nyawa. Pujian kalau benar, petunjuk kalau salah. Berwarna dan mudah di HP, bahasa Indonesia.\n```\n\n**KODI:** *(senang)* Sekarang kamu punya game sendiri! Berikutnya, kita buat halaman toko online untuk usahamu.",
+   "quiz": [
+    {
+     "q": "Kalau game-nya ada masalah, apa cara paling mudah memperbaikinya?",
+     "options": [
+      "Membuang aplikasinya",
+      "Bilang apa yang salah ke Claude, lalu minta diperbaiki",
+      "Belajar bahasa pemrograman dulu"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Saat anak salah menebak, game yang baik sebaiknya...",
+     "options": [
+      "Langsung kalah tanpa petunjuk",
+      "Memberi petunjuk dan pujian, supaya anak mau mencoba lagi",
+      "Menampilkan tulisan marah"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Apa yang sebaiknya tidak dimasukkan ke game anak?",
+     "options": [
+      "Nama panggilan",
+      "Nama lengkap dan alamat rumah",
+      "Tema hewan"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "A word-guessing game for kids",
+   "body": "**Duration:** about 8 minutes · **Reward:** +20 XP for finishing, +10 XP for a perfect quiz, +30 XP for the mission, 🎮 second creation: **Family Game Champion**\n**Goal:** the learner builds a small game that the whole family can play, and knows how to fix it when something goes wrong.\n\n---\n\n## Scene 1: Kodi's story (1 minute)\n\n*(Kodi sits with two small children, delighted)*\n\n**KODI:** The kids keep wanting to play on the phone. I said, \"Let's make a game ourselves!\" They shouted, \"Yes, yes!\"\n\n**KODI:** We use Claude to make a **word-guessing game**. The child guesses, and the parent reads the clues. Fun, and it teaches vocabulary at the same time.\n\n*(oops face)*\n\n**KODI:** Once I asked for a game, and Claude made one where the buttons did not click. I was confused. But Claude can be asked to fix it. Let's see how.\n\n## Scene 2: Ask Claude to make the game (3 minutes)\n\n**KODI:** Open a new chat and paste this prompt. Adjust the child's age and the theme you want.\n\n```\nBuild a simple word-guessing game for a child aged [age], in English.\nTheme: [for example animals, fruit, or kitchen items].\nShow boxes for the letters to guess, A to Z buttons, and 3 lives.\nWhen a guess is right, show a happy emoji and cheerful praise. When it is wrong, give a hint instead of ending the game.\nMake it colorful, with big buttons, and easy to use on a phone.\n```\n\n**KODI:** If the game appears on screen, try it yourself first. Then call your child!\n\n> If the game does not appear, ask: `Show this game as an artifact I can open.`\n\n## Scene 3: If something goes wrong, just tell Claude (2 minutes)\n\n**KODI:** *(panicking)* Eh, the buttons will not stop? Calm down! Copy the error message, or describe what happened, and send it to Claude.\n\n**Example message when something is wrong:**\n```\nThe word game is not working yet: [describe it, for example a letter I pressed does not turn grey]. Please fix it and show me the full version.\n```\n\n**KODI:** Claude will rewrite the tool. You do not need to understand the code. Just say what went wrong.\n\n**Fun follow-ups:**\n- `Add easy and hard levels.`\n- `Change the theme to animal names, and add sounds.`\n- `Make the first 5 words shorter for young children.`\n\n## Scene 4: Practice mission (2 minutes)\n\n**KODI:** Your mission: build a **word-guessing game** for a child or niece or nephew, then play it together. After that:\n\n1. **Take a screenshot** of the game running.\n2. Write down one word the child guessed correctly.\n\nYou get +30 XP and the **Family Game Champion** badge!\n\n> 🔒 Do not put a child's full name or home address in the game. A nickname is enough.\n\n**Recipe prompt (copy and replace the parts in brackets):**\n```\nBuild a word-guessing game for a child aged [age], theme [theme]. Letter boxes, A to Z buttons, 3 lives. Praise when right, hints when wrong. Colorful and easy on a phone, in simple English.\n```\n\n**KODI:** *(happy)* Now you have your own game! Next, we build a shop page for your business.",
+   "quiz": [
+    {
+     "q": "If the game has a problem, what is the easiest way to fix it?",
+     "options": [
+      "Delete the app",
+      "Tell Claude what went wrong, then ask it to fix the game",
+      "Learn a programming language first"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "When a child guesses wrong, a good game should...",
+     "options": [
+      "End immediately with no hint",
+      "Give a hint and praise, so the child wants to try again",
+      "Show an angry message"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "What should NOT be put into a children's game?",
+     "options": [
+      "A nickname",
+      "Full name and home address",
+      "An animal theme"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "images": []
+ },
+ "2.5": {
+  "id": {
+   "title": "Halaman toko dengan tombol WA",
+   "body": "**Durasi:** sekitar 9 menit · **Hadiah:** +20 XP selesai, +10 XP kuis sempurna, +30 XP misi, 🌐 karya ketiga: **Tukang Halaman**\n**Tujuan:** user membuat satu halaman web sederhana untuk usaha (atau hobi), lengkap dengan tombol WhatsApp, lalu membagikan linknya.\n\n> Catatan produksi: fitur membagikan link Artifact bisa berbeda di tiap akun dan versi aplikasi. Cek dulu sebelum merekam.\n\n---\n\n## Adegan 1: Cerita Kodi (1 menit)\n\n*(Kodi berdiri di depan etalase kecil berisi kue, ekspresi bangga)*\n\n**KODI:** Bu Ani jualan kue di depan rumah. Pesanan datang lewat WhatsApp, tapi orang sering bingung, \"Kue ibu jualan apa saja ya?\" dan \"Harganya berapa?\"\n\n**KODI:** Kalau ada **halaman** yang rapi, cukup kirim satu link. Semua informasi ada di situ, dan tombol WhatsApp langsung mengarahkan ke pesanan.\n\n*(ekspresi ups)*\n\n**KODI:** Aku tadi mau bikin toko kue dari kardus. Hasilnya penyok. Lebih gampang bikin halaman di Claude!\n\n## Adegan 2: Minta Claude membuat halaman (3 menit)\n\n**KODI:** Buka chat baru, lalu tempel perintah ini. Ganti semua bagian dalam kurung dengan usahamu.\n\n```\nBuatkan satu halaman web sederhana untuk usaha [nama usaha] yang menjual [produk].\nIsi halaman: judul besar, satu kalimat tentang usaha, daftar produk dengan harga (pakai contoh dulu), jam buka, dan area [kota].\nTambahkan tombol besar berwarna hijau bertuliskan \"Pesan lewat WhatsApp\" yang membuka WhatsApp dengan nomor [nomor WA, format 62...] dan pesan otomatis \"Halo, saya mau pesan ...\".\nBahasa Indonesia yang ramah, warna cerah, mudah dibuka di HP.\n```\n\n**KODI:** Kalau halamannya muncul, coba tekan tombol WhatsApp. Pastikan pesannya terbuka dengan benar.\n\n> Kalau tombolnya tidak membuka WhatsApp, minta: `Tombol WhatsApp-nya belum jalan. Pakai link wa.me dengan nomor dalam format 62, lalu teks pesan yang sudah di-encode.`\n\n## Adegan 3: Ganti dengan data usahamu (2 menit)\n\n**KODI:** Harga, produk, dan jam buka bisa diubah lewat chat. Contoh lanjutan:\n- `Ganti harga kue cokelat jadi Rp45.000 dan tambahkan kue lapis.`\n- `Tambahkan bagian \"Testimoni\" dengan 2 kalimat contoh.`\n- `Buat tampilannya lebih bersih, dan tombol WA lebih besar.`\n\n**KODI:** *(berpikir)* Jangan masukkan nomor rekening atau data pribadi pelanggan di halaman. Cukup nomor WA usaha.\n\n## Adegan 4: Bagikan linknya (2 menit)\n\n**KODI:** Halaman yang belum dibagikan seperti toko yang tutup. Yuk kita bagikan!\n\n1. Cari tombol **Bagikan** atau **Publikasikan** di halaman artifact. Cek dulu letaknya di aplikasimu.\n2. Salin link yang muncul.\n3. Kirim ke **3 teman atau keluarga** lewat WhatsApp, dengan satu kalimat: \"Ini halaman usaha saya, tolong dicek ya!\"\n\n> Kalau tombol bagikan tidak ada di akunmu, cukup screenshot halamannya dan kirim ke grup keluarga. Fitur bagikan link bisa berbeda di tiap akun.\n\n## Adegan 5: Misi praktik (1 menit)\n\n**KODI:** Misimu: buat **halaman usaha** (atau hobi) dengan tombol WhatsApp, lalu bagikan ke **minimal 1 orang**. Screenshot halamannya untuk +30 XP dan badge **Tukang Halaman**!\n\n**Resep Prompt (salin dan ganti bagian dalam kurung):**\n```\nBuatkan satu halaman web sederhana untuk usaha [nama usaha] yang menjual [produk]. Judul besar, daftar produk dengan harga, jam buka. Tombol hijau \"Pesan lewat WhatsApp\" dengan nomor [62...]. Bahasa Indonesia ramah, warna cerah, mudah di HP.\n```\n\n**KODI:** *(senang)* Kamu sudah punya halaman sendiri! Pelajaran terakhir gratis nanti membantu kamu melihat langkah berikutnya.",
+   "quiz": [
+    {
+     "q": "Tombol WhatsApp di halaman usaha berguna untuk apa?",
+     "options": [
+      "Supaya pelanggan langsung bisa memesan",
+      "Supaya halaman menjadi lebih berat",
+      "Untuk menghapus halaman"
+     ],
+     "answer": 0,
+     "note": ""
+    },
+    {
+     "q": "Data apa yang sebaiknya TIDAK dimasukkan ke halaman usaha?",
+     "options": [
+      "Nama produk dan harga",
+      "Nomor rekening dan PIN",
+      "Jam buka"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Mengapa perlu membagikan link halaman ke beberapa orang?",
+     "options": [
+      "Supaya ada yang melihat dan memberi masukan",
+      "Supaya halaman otomatis dibayar",
+      "Tidak ada alasannya"
+     ],
+     "answer": 0,
+     "note": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "A shop page with a WhatsApp button",
+   "body": "**Duration:** about 9 minutes · **Reward:** +20 XP for finishing, +10 XP for a perfect quiz, +30 XP for the mission, 🌐 third creation: **Page Builder**\n**Goal:** the learner builds one simple web page for a business (or a hobby), with a WhatsApp button, then shares its link.\n\n> Production note: the link-sharing option for Artifacts can differ between accounts and app versions. Check it before recording.\n\n---\n\n## Scene 1: Kodi's story (1 minute)\n\n*(Kodi stands in front of a small cake display, proud)*\n\n**KODI:** Mrs. Ani sells cakes from her front door. Orders come through WhatsApp, but people often ask, \"What cakes do you sell?\" and \"How much is it?\"\n\n**KODI:** With a neat **page**, you send one link. All the information is there, and the WhatsApp button goes straight to ordering.\n\n*(oops face)*\n\n**KODI:** I once tried to make a cake shop out of cardboard. It came out dented. Making a page with Claude is much easier!\n\n## Scene 2: Ask Claude to build the page (3 minutes)\n\n**KODI:** Open a new chat and paste this prompt. Replace all the parts in brackets with your business details.\n\n```\nBuild one simple web page for my business [business name], which sells [product].\nPage content: a big title, one sentence about the business, a list of products with prices (use sample prices for now), opening hours, and the area [city].\nAdd a big green button labelled \"Order via WhatsApp\" that opens WhatsApp with the number [WhatsApp number, in the 62... format] and an automatic message \"Hello, I would like to order ...\".\nFriendly plain English, bright colors, easy to open on a phone.\n```\n\n**KODI:** If the page appears, tap the WhatsApp button. Make sure the message opens correctly.\n\n> If the button does not open WhatsApp, ask: `The WhatsApp button does not work yet. Use a wa.me link with the number in the 62 format, and an encoded message text.`\n\n## Scene 3: Replace it with your own details (2 minutes)\n\n**KODI:** Prices, products, and opening hours can be changed in the chat. More examples:\n- `Change the price of chocolate cake to Rp45,000 and add layer cake.`\n- `Add a \"Testimonials\" section with 2 sample sentences.`\n- `Make the design cleaner, and the WhatsApp button bigger.`\n\n**KODI:** *(thinking)* Never put bank account numbers or customers' personal data on the page. Just the business WhatsApp number.\n\n## Scene 4: Share the link (2 minutes)\n\n**KODI:** A page nobody has seen is like a shop that is closed. Let's share it!\n\n1. Look for a **Share** or **Publish** button on the artifact page. Check where it is in your app.\n2. Copy the link that appears.\n3. Send it to **3 friends or family** on WhatsApp, with one sentence: \"This is my business page, please take a look!\"\n\n> If there is no share button on your account, take a screenshot of the page and send it to your family group. Link sharing can differ between accounts.\n\n## Scene 5: Practice mission (1 minute)\n\n**KODI:** Your mission: build a **business page** (or hobby page) with a WhatsApp button, then share it with **at least 1 person**. Take a screenshot of the page for +30 XP and the **Page Builder** badge!\n\n**Recipe prompt (copy and replace the parts in brackets):**\n```\nBuild one simple web page for my business [business name], which sells [product]. Big title, product list with prices, opening hours. A green \"Order via WhatsApp\" button with the number [62...]. Friendly plain English, bright colors, easy on a phone.\n```\n\n**KODI:** *(happy)* You now have your own page! The last free lesson helps you see the next step.",
+   "quiz": [
+    {
+     "q": "What is the WhatsApp button on a business page for?",
+     "options": [
+      "So customers can order right away",
+      "To make the page heavier",
+      "To delete the page"
+     ],
+     "answer": 0,
+     "note": ""
+    },
+    {
+     "q": "Which data should NOT be put on a business page?",
+     "options": [
+      "Product names and prices",
+      "Bank account numbers and PINs",
+      "Opening hours"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Why share the page link with several people?",
+     "options": [
+      "So people can look at it and give feedback",
+      "So the page gets paid automatically",
+      "There is no reason"
+     ],
+     "answer": 0,
+     "note": ""
+    }
+   ]
+  },
+  "images": []
+ },
+ "2.6": {
+  "id": {
+   "title": "Dari karya jadi cuan (cicipan)",
+   "body": "**Durasi:** sekitar 7 menit · **Hadiah:** +20 XP selesai, +10 XP kuis sempurna, +30 XP misi, 💡 lencana **Calon Pengusaha**\n**Tujuan:** user melihat bahwa karya yang sudah dibuat bisa dijadikan peluang uang, dan mencoba menawarkannya ke satu orang yang dikenal.\n\n> Catatan: pelajaran ini hanya cicipan. Cara jualan, harga, dan mencari klien dibahas lengkap di modul berbayar.\n\n---\n\n## Adegan 1: Cerita Kodi (1 menit)\n\n*(Kodi duduk di warung dengan tiga poster hasil karyanya, ekspresi bersemangat)*\n\n**KODI:** Hari ini aku sudah punya tiga karya: kalkulator anggaran, game tebak kata, dan halaman toko. Keren, kan?\n\n**KODI:** *(berpikir)* Lalu aku bertanya ke diri sendiri: \"Apakah orang lain mau membayar sesuatu seperti ini?\" Jawabannya: sering sekali, terutama usaha kecil yang belum punya halaman sendiri.\n\n*(ekspresi ups)*\n\n**KODI:** Tapi jangan langsung semangat menjual ke semua orang. Kita mulai dari satu orang saja.\n\n## Adegan 2: Tiga contoh karya yang bisa ditawarkan (2 menit)\n\n| Karya | Siapa yang butuh | Contoh tawaran sederhana |\n|---|---|---|\n| Halaman toko dengan tombol WA | Usaha kue, laundry, jasa rumah | \"Mau saya buatkan halaman usaha Ibu, seperti ini?\" |\n| Kalkulator anggaran | Keluarga, arisan, koperasi kecil | \"Ada kalkulator untuk catat kas arisan, mau saya buatkan?\" |\n| Game tebak kata | Guru PAUD, TK, les anak | \"Ada game tebak kata untuk latihan murid, mau dicoba?\" |\n\n**KODI:** Perhatikan: tawarannya dimulai dari **masalah** orang itu, bukan dari hebatnya teknologi.\n\n## Adegan 3: Misi praktik (2 menit)\n\n**KODI:** Misimu: pilih **satu** karya, lalu tawarkan ke **satu orang** yang kamu kenal. Pakai kalimat sendiri, dan sebut manfaat untuk dia.\n\nMinta Claude membantu menulis pesannya:\n\n**Resep Prompt (salin dan ganti bagian dalam kurung):**\n```\nTolong tulis pesan WhatsApp yang sopan dan singkat untuk menawarkan [karya: halaman toko / kalkulator / game tebak kata] kepada [nama atau jenis usaha]. Sebut satu manfaat yang jelas. Maksimal 4 kalimat, tanpa janji berlebihan, dan diakhiri ajakan untuk bertanya.\n```\n\n**KODI:** Baca dulu hasilnya. Ganti dengan kata-katamu sendiri, lalu kirim. Kalau sudah dikirim, screenshot pesannya untuk +30 XP dan lencana **Calon Pengusaha**!\n\n> 🔒 Ingat pelajaran 1.4: jangan minta data pribadi orang lain, dan jangan menjanjikan hasil yang belum pasti.",
+   "quiz": [
+    {
+     "q": "Mengapa tawaran sebaiknya dimulai dari masalah orang lain?",
+     "options": [
+      "Supaya terlihat paling pintar",
+      "Karena orang lebih tertarik kalau manfaatnya terasa untuk dia",
+      "Supaya tawarannya lebih panjang"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Sebaiknya kamu menawarkan karya ke berapa orang dulu?",
+     "options": [
+      "Ratusan orang sekaligus",
+      "Satu orang yang kamu kenal, sebagai latihan",
+      "Tidak perlu menawarkan"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "Pesan tawaran yang baik itu...",
+     "options": [
+      "Penuh janji hasil yang pasti",
+      "Singkat, sopan, dan menyebut satu manfaat yang jelas",
+      "Tanpa nama dan tanpa sapaan"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "en": {
+   "title": "From creations to income (preview)",
+   "body": "**Duration:** about 7 minutes · **Reward:** +20 XP for finishing, +10 XP for a perfect quiz, +30 XP for the mission, 💡 badge **Future Entrepreneur**\n**Goal:** the learner sees that the things they have built can become income opportunities, and tries offering one to one person they know.\n\n> Note: this lesson is only a preview. How to sell, pricing, and finding clients are covered in full in the paid modules.\n\n---\n\n## Scene 1: Kodi's story (1 minute)\n\n*(Kodi sits at a food stall with three posters of his work, looking proud)*\n\n**KODI:** Today I have three creations: a budget calculator, a word-guessing game, and a shop page. Cool, right?\n\n**KODI:** *(thinking)* Then I asked myself, \"Would other people pay for something like this?\" The answer: often yes, especially small businesses that do not have their own page yet.\n\n*(oops face)*\n\n**KODI:** But do not rush to sell to everyone. We start with just one person.\n\n## Scene 2: Three creations you can offer (2 minutes)\n\n| Creation | Who needs it | Simple offer |\n|---|---|---|\n| Shop page with WhatsApp button | Cake shops, laundry, home services | \"Shall I make a business page for you like this?\" |\n| Budget calculator | Families, savings groups, small cooperatives | \"I can build a calculator for your group's cash, want one?\" |\n| Word-guessing game | Early-childhood teachers, tutoring | \"I have a word game for practice, would you like to try it?\" |\n\n**KODI:** Notice that the offer starts from the other person's **problem**, not from how clever the technology is.\n\n## Scene 3: Practice mission (2 minutes)\n\n**KODI:** Your mission: pick **one** creation, then offer it to **one person** you know. Use your own words, and mention a benefit for them.\n\nAsk Claude to help you write the message:\n\n**Recipe prompt (copy and replace the parts in brackets):**\n```\nWrite a polite and short WhatsApp message offering [creation: shop page / calculator / word game] to [name or type of business]. Mention one clear benefit. Maximum 4 sentences, no exaggerated promises, and end with an invitation to ask questions.\n```\n\n**KODI:** Read the result first. Change it to your own words, then send it. Once sent, take a screenshot of the message for +30 XP and the **Future Entrepreneur** badge!\n\n> 🔒 Remember lesson 1.4: do not ask for other people's personal data, and do not promise results you cannot guarantee.",
+   "quiz": [
+    {
+     "q": "Why should the offer start from the other person's problem?",
+     "options": [
+      "So you look the smartest",
+      "Because people are more interested when they can see a benefit for them",
+      "So the message is longer"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "How many people should you offer your creation to first?",
+     "options": [
+      "Hundreds at once",
+      "One person you know, as practice",
+      "Nobody"
+     ],
+     "answer": 1,
+     "note": ""
+    },
+    {
+     "q": "A good offer message is...",
+     "options": [
+      "Full of guaranteed promises",
+      "Short, polite, and mentions one clear benefit",
+      "Without a name and without a greeting"
+     ],
+     "answer": 1,
+     "note": ""
+    }
+   ]
+  },
+  "images": []
+ }
+}
